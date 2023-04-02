@@ -11,7 +11,11 @@ Overall, this project demonstrates how machine learning algorithms can be used t
 
 ## Getting Started
 
-To get started with this project, you will need to clone the repository to your local machine and install the required libraries using pip.
+To get started with this project, you will need to clone the repository to your local machine and install the required libraries using pip. Download the dataset from the kaggle page [here](https://www.kaggle.com/competitions/im-hard-to-spot/data) or alternatively, using the kaggle API* use:
+```
+kaggle competitions download -c im-hard-to-spot
+```
+*You can follow the instructions in [this](https://github.com/Kaggle/kaggle-api) repo to set up the API.
 
 ## Prerequisites
 
@@ -26,12 +30,18 @@ You can install them using pip:
 ```
 pip install pandas sklearn statsmodels matplotlib seaborn
 ```
+Alternatively use the below command after cloning the repo:
+```
+pip install -r requirements.txt
+```
+
 ## Installing
 
 To install this project, simply clone the repository to your local machine:
 ```
 git clone https://github.com/your-username/your-repository.git
 ```
+
 ## License
 
 This project is licensed under the [MIT](LICENSE) license.
